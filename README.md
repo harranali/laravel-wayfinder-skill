@@ -76,3 +76,7 @@ Load skills from .agents/skills/
 
 🚀 Philosophy
 Instead of teaching each agent separately, I have centralize Laravel Wayfinder rules into a portable skill system for all coding agents.
+
+## 📄 License
+
+MIT
