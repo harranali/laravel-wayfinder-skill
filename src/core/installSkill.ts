@@ -17,9 +17,11 @@ export async function installSkill(target: AgentTarget, skill: Skill) {
   await fs.ensureDir(skillDir);
 
   // 3. load template
-  const templatePath = path.resolve(
+  const templatePath = path.join(
     __dirname,
-    `../templates/${skill.contentPath}`
+    '..',
+    'templates',
+    skill.contentPath
   );
 
   const content = await fs.readFile(templatePath, 'utf-8');
