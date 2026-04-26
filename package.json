@@ -1,0 +1,34 @@
+{
+  "name": "laravel-wayfinder-skill",
+  "version": "0.1.0",
+  "description": "Adds Laravel Wayfinder AI Agent Skill To Your Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx bin/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harranali/laravel-wayfinder-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "laravel-wayfinder-skill": "dist/bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/harranali/laravel-wayfinder-skill/issues"
+  },
+  "homepage": "https://github.com/harranali/laravel-wayfinder-skill#readme",
+  "dependencies": {
+    "cac": "^7.0.0",
+    "fs-extra": "^11.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
