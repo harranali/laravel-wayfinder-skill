@@ -3,7 +3,7 @@ node_modules/
 
 # build output
 dist/
-
+.agents/
 # logs
 npm-debug.log*
 yarn-debug.log*

@@ -4,6 +4,7 @@
   "description": "Adds Laravel Wayfinder AI Agent Skill To Your Project",
   "main": "index.js",
   "scripts": {
+    "test": "vitest",
     "dev": "tsx bin/index.ts",
     "build": "tsc && npm run copy-templates",
     "copy-templates": "cpx \"src/templates/**/*\" dist/src/templates"
@@ -37,6 +38,7 @@
     "@types/node": "^25.6.0",
     "cpx": "^1.5.0",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
   }
 }
