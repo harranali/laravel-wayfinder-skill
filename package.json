@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx bin/index.ts",
     "build": "tsc && npm run copy-templates",
-    "copy-templates": "cpx \"src/templates/**/*\" dist/templates"
+    "copy-templates": "cpx \"src/templates/**/*\" dist/src/templates"
   },
   "repository": {
     "type": "git",
