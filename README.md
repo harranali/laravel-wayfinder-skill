@@ -1,10 +1,8 @@
 # Laravel Wayfinder AI Agent Skill For Laravel Projects
 
-[![Tests](https://github.com/harranali/laravel-wayfinder-skill/actions/workflows/tests.yml/badge.svg)](https://github.com/harranali/laravel-wayfinder-skill/actions/workflows/tests.yml)
+![Tests](https://github.com/harranali/laravel-wayfinder-skill/actions/workflows/test.yml/badge.svg)
 
-A lightweight CLI tool to install AI agent skills for Laravel projects that has Wayfinder.
-
-It standardizes how coding agents (Claude Code, Windsurf, Cursor, Antigravity, etc.) understand and use Laravel Wayfinder instead of Ziggy.
+CLI tool that installs standardized AI agent instructions for Laravel (12/13) projects using Wayfinder instead of Ziggy across coding agents like Claude, Cursor, Windsurf, Antigravity, Gemini, and Trae.
 
 ## 🚀 Features
 - Installs reusable AI coding skills into Laravel projects
