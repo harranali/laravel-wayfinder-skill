@@ -6,9 +6,13 @@ import type { AgentTarget, Skill } from './types.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export async function installSkill(target: AgentTarget, skill: Skill) {
-  const projectRoot = process.cwd();
-
+export async function installSkill(
+    target: AgentTarget,
+    skill: Skill,
+    options?: { projectRoot?: string }
+  ) {
+    const projectRoot = options?.projectRoot ?? process.cwd();
+    
   // 1. skill storage path (always same)
   const skillDir = path.join(projectRoot, '.agents', 'skills');
   const skillFile = path.join(skillDir, skill.fileName);
